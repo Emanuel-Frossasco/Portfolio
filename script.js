@@ -35,7 +35,7 @@ const $buttonMailto = document.getElementById("mailto")
 function handleSubmit(event){
   event.preventDefault()
   const form = new FormData(this)
-  $buttonMailto.setAttribute('href',`mailto:manufro@hotmail.com?subject=${form.get('name')} ${form.get('surname')} &body=${form.get('message')}`)
+  $buttonMailto.setAttribute('href',`mailto:frossasco42@gmail.com?subject=${form.get('name')} ${form.get('surname')} &body=${form.get('message')}`)
   $buttonMailto.click()
 }
 
