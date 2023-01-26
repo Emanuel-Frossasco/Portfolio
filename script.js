@@ -27,6 +27,7 @@ $closeBtnsArr.forEach(function($btn) {
 });
 
 //Formulario
+/*
 const $form = document.getElementById("form")
 $form.addEventListener('submit',handleSubmit)
 const $buttonMailto = document.getElementById("mailto")
@@ -36,7 +37,7 @@ function handleSubmit(event){
   const form = new FormData(this)
   $buttonMailto.setAttribute('href',`mailto:frossasco42@gmail.com?subject=${form.get('name')} ${form.get('surname')} &body=${form.get('message')}`)
   $buttonMailto.click()
-}
+}*/
 
 //Footer
 const year =document.getElementById("year");
