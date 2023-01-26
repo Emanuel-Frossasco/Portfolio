@@ -489,7 +489,7 @@ nav ul li a{
 }
 .el:nth-child(4) .el__bg::before{
     transition-delay: 0.1s;
-    background-image: url('img4.jpg');
+    background-image: url('../assets/cv-Argentina.png');
 }
 .el:nth-child(5){
     transform: translate3d(420.20% , 0 ,0);
@@ -541,8 +541,8 @@ nav ul li a{
     left: auto;
     right: 5px;
 }
-//Contacto
 
+//Contacto
 .conteiner-contact .form .form-header .form-title{
     font-weight: bold;
     font-family: 'Orbitron', sans-serif;
@@ -634,6 +634,7 @@ nav ul li a{
             justify-content: center;
             align-items: center;
             p{
+
                 color: #fff;
                 font-size: 16px;
                 margin-bottom: 25px;
@@ -646,3 +647,4 @@ nav ul li a{
 .social{
     margin-right: 25px;
 }
+

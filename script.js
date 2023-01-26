@@ -27,7 +27,6 @@ $closeBtnsArr.forEach(function($btn) {
 });
 
 //Formulario
-
 const $form = document.getElementById("form")
 $form.addEventListener('submit',handleSubmit)
 const $buttonMailto = document.getElementById("mailto")
