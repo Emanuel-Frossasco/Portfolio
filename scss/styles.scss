@@ -648,3 +648,64 @@ nav ul li a{
     margin-right: 25px;
 }
 
+//Responsive
+@media only screen and (max-width: 768px){
+    //Skills
+    .skills-image-conteiner{
+        img, svg {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    }
+    //Proyect
+    img, svg {
+        vertical-align: middle;
+        text-align: center;
+        display: flex;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 576px){
+    //Main
+    .conteiner-title{
+        .title{
+            margin-top: 40%;
+        }
+        .subtitle{
+            font-size: 35px;
+        }
+    }
+    //About Me
+    .conteiner-aboutMe{
+        .title-aboutMe{
+            font-size: 60px;
+        }
+        .aboutMe{
+            width: 80%;
+            text-align: left;
+        }
+    }
+    //Skills
+    .skills-image-conteiner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 80%;
+        margin-left: 20%;
+        margin-right: 20%;
+        img, svg {
+            vertical-align: middle;
+            margin-bottom: 10px;
+        }
+    }
+    //Proyect
+    .title-project{
+        font-size: 60px;
+    }
+    img, svg {
+        vertical-align: middle;
+        text-align: center;
+        display: flex;
+        margin-bottom: 10px;
+    }
+}

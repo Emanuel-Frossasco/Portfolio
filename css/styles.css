@@ -760,3 +760,52 @@ nav ul li a {
 .social {
   margin-right: 25px;
 }
+
+@media only screen and (max-width: 768px) {
+  .skills-image-conteiner img, .skills-image-conteiner svg {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  img, svg {
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .conteiner-title .title {
+    margin-top: 40%;
+  }
+  .conteiner-title .subtitle {
+    font-size: 35px;
+  }
+  .conteiner-aboutMe .title-aboutMe {
+    font-size: 60px;
+  }
+  .conteiner-aboutMe .aboutMe {
+    width: 80%;
+    text-align: left;
+  }
+  .skills-image-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .skills-image-conteiner img, .skills-image-conteiner svg {
+    vertical-align: middle;
+    margin-bottom: 10px;
+  }
+  .title-project {
+    font-size: 60px;
+  }
+  img, svg {
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    margin-bottom: 10px;
+  }
+}
