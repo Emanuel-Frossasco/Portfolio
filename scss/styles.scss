@@ -508,7 +508,7 @@ nav ul li a{
 }
 .el:nth-child(5) .el__bg::before{
     transition-delay: 0.4s;
-    background-image: url('img5.jpg');
+    background-image: url('../assets/bakery.jpg');
 }
 .el:hover .el__bg:after {
     opacity: 0;
@@ -709,3 +709,4 @@ nav ul li a{
         margin-bottom: 10px;
     }
 }
+

@@ -102,22 +102,9 @@ nav ul li a {
   margin: auto;
   overflow: auto;
   background: linear-gradient(315deg, rgb(66, 68, 74) 3%, rgb(65, 65, 71) 38%, rgb(21, 21, 21) 68%, rgb(19, 19, 19) 98%);
-  -webkit-animation: gradient 15s ease infinite;
-          animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
   background-size: 400% 400%;
   background-attachment: fixed;
-}
-
-@-webkit-keyframes gradient {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
 }
 
 @keyframes gradient {
@@ -203,59 +190,40 @@ nav ul li a {
   border-bottom: 160px solid rgba(255, 255, 255, 0.2);
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  -webkit-animation: animate 20s linear infinite;
-          animation: animate 20s linear infinite;
+  animation: animate 20s linear infinite;
   bottom: -150px;
 }
 
 .box-area li:nth-child(1) {
   left: 86%;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .box-area li:nth-child(2) {
   left: 12%;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
+  animation-delay: 1.5s;
+  animation-duration: 10s;
 }
 
 .box-area li:nth-child(3) {
   left: 70%;
-  -webkit-animation-delay: 5.5s;
-          animation-delay: 5.5s;
+  animation-delay: 5.5s;
 }
 
 .box-area li:nth-child(4) {
   left: 42%;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
+  animation-delay: 0s;
+  animation-duration: 15s;
 }
 
 .box-area li:nth-child(5) {
   left: 65%;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .box-area li:nth-child(6) {
   left: 23%;
-  -webkit-animation-delay: 3.5s;
-          animation-delay: 3.5s;
-}
-
-@-webkit-keyframes animate {
-  0% {
-    transform: translateY(0) scale(0);
-  }
-  100% {
-    transform: translateY(-800px) scale(2);
-    opacity: 0;
-  }
+  animation-delay: 3.5s;
 }
 
 @keyframes animate {
@@ -608,7 +576,7 @@ nav ul li a {
 
 .el:nth-child(5) .el__bg::before {
   transition-delay: 0.4s;
-  background-image: url("img5.jpg");
+  background-image: url("../assets/bakery.jpg");
 }
 
 .el:hover .el__bg:after {
