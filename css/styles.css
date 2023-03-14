@@ -617,80 +617,12 @@ nav ul li a {
   right: 5px;
 }
 
-.conteiner-contact .form .form-header .form-title {
+.conteiner-contact {
   font-weight: bold;
   font-family: "Orbitron", sans-serif;
   text-align: center;
-  color: #f7873c;
+  color: #ffffff;
   padding: 14px 0;
-}
-
-.conteiner-contact .form .form-header .form-title span {
-  color: #fff;
-}
-
-.conteiner-contact .form {
-  background: rgba(0, 0, 0, 0.6);
-  width: 80%;
-  max-width: 80%;
-  margin: auto;
-  padding: 35px 35px;
-  margin-top: 30px;
-  margin-bottom: 120px;
-}
-
-.form-name-label {
-  display: flex;
-}
-
-.form-input .form-separation {
-  padding-left: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.form-label {
-  color: white;
-  font-size: 16px;
-  font-family: "Orbitron", sans-serif;
-}
-
-.conteiner-contact .form .form-input, .form-text {
-  content: "";
-  background: black;
-  border: none;
-  outline: none;
-  border-bottom: 2px solid white;
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 20px;
-  border-radius: 2px;
-  font-size: 14px;
-  color: white;
-  font-family: "Orbitron", sans-serif;
-}
-
-.conteiner-contact .form .form-text {
-  resize: vertical;
-  max-height: 150px;
-  min-height: 50px;
-}
-
-.conteiner-contact .form .boton-submit {
-  width: 100%;
-  font-family: "Orbitron", sans-serif;
-  outline: none;
-  background: white;
-  font-size: 16px;
-  border: none;
-  color: black;
-  padding: 15px 0;
-  cursor: pointer;
-}
-
-.conteiner-contact .form .boton-submit:hover {
-  background: #606060;
-  color: #fff;
 }
 
 .footer {
@@ -777,8 +709,8 @@ nav ul li a {
     margin-bottom: 10px;
   }
 }
-.card {
-  width: 300px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+@media screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }
 }
